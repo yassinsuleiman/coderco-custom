@@ -13,6 +13,6 @@ outputs:
     description: the time you were greeted
 
 runs: 
-  using: node20
-  main: dist/index.js
+  using: 'node20'
+  main: 'dist/index.js'
   
