@@ -1,0 +1,18 @@
+name : CoderCo Custom actions/checkout
+
+description: greet someone
+
+inputs:
+  who-to-greet:
+    description: who to greet
+    required: true
+    default: Hello
+
+outputs:
+  time:
+    description: the time you were greeted
+
+runs: 
+  using: node20
+  main: dist/index.js
+  
